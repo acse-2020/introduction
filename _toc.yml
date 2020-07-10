@@ -1,0 +1,25 @@
+- title: Home
+  file: home.md
+- title: Remote Learning
+  file: remote_learning/intro.md
+- title: Microsoft Teams
+  file: teams/intro.md
+- title: Jupyter Notebooks
+  file: jupyter/intro.md
+- title: The Python Programming Language
+  file: python/intro.md
+- title: Git & GitHub
+  file: git/intro.md
+  sections:
+  - title: The git version control system
+    file: git/git.md
+  - title: GitHub.com 
+    file: git/github.md
+- title: The Command Line
+  file: command_lines/intro.md
+- title: Mathematics
+  file: maths/intro.md
+- title: Software Installation Guide
+  file: software/intro.md
+- title: Index
+  file: genindex.rst

@@ -1,0 +1,10 @@
+# Requirements to build and run the books
+pandas
+numpy
+datascience
+folium
+matplotlib
+nbinteract
+scipy
+sphinx==2.4.4
+jupyter-book==0.7.0
