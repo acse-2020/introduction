@@ -13,5 +13,3 @@ Before the course starts on 5th October 2020, future ACSE students are expected 
 3. Work through the Software Carpentry lectures on the bash command line. See {doc}`command_lines/intro` for more information and links
 4.  Work through the Software Carpentry lectures on git. See {doc}`git/git` for more information and links
 5. Install supporting software as described in {doc}`software/intro`. As a minimum, you will need {doc}`teams\intro` installed on at least one device.
-
-## On the first day

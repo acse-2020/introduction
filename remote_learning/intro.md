@@ -27,7 +27,7 @@ If working on a laptop or other mobile device, you may also want to consider cha
 
 ### Make sure others know when you are working
 
-The ACSE course is a full time activity, and is not easily combined with other duties. Make sure that housemates and household family members know when you are working and when you are available. If you find that caring responsibilities are adversely affecting your studies, please talk to your lecturer, your Senior Tutor or some other member of college staff.
+The ACSE course is a full time activity, and is not easily combined with other duties. Make sure that housemates and household family members know when you are working and when you are available. If you find that caring responsibilities are adversely affecting your studies, please talk to your lecturer, your Personal Postgraduate Tutor or some other member of college teaching staff.
 
 
 ### Resources
