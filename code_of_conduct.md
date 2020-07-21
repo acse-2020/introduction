@@ -1,4 +1,4 @@
-# Code of Conduct
+# ACSE Code of Conduct
 
 The ACSE course community brings together people from multiple backgrounds and cultures, and at the start of the new academic year we will be interacting remotely. This brings both benefits and risks. As such, we expect everyone, both staff and students to behave courteously, welcomingly and with respect. In line with other organisations such as the [Society of Research Software Engineers](https://society-rse.org/about/code-of-conduct/), we have enumerated these ideas in the following code of conduct:
 

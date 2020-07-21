@@ -23,9 +23,9 @@
 - title: Software Installation Guide
   file: software/intro.md
 - header: Useful Links
-- title: Code of Conduct
+- title: ACSE Code of Conduct
   file: code_of_conduct.md
-- title: Readling list
+- title: Reading list
   file: reading_list.md
 - title: Index
   file: genindex.rst
