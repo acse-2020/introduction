@@ -1,5 +1,6 @@
-- title: Home
+- title: Welcome to ACSE
   file: home.md
+- header: Course Material
 - title: Remote Learning
   file: remote_learning/intro.md
 - title: Microsoft Teams
@@ -21,5 +22,10 @@
   file: maths/intro.md
 - title: Software Installation Guide
   file: software/intro.md
+- header: Useful Links
+- title: Code of Conduct
+  file: code_of_conduct.md
+- title: Readling list
+  file: reading_list.md
 - title: Index
   file: genindex.rst
