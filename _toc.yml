@@ -7,7 +7,7 @@
   file: teams/intro.md
 - title: Jupyter Notebooks
   file: jupyter/intro.md
-- title: The Python Programming Language
+- title: The Python Language
   file: python/intro.md
 - title: Git & GitHub
   file: git/intro.md
@@ -25,6 +25,8 @@
 - header: Useful Links
 - title: ACSE Code of Conduct
   file: code_of_conduct.md
+- title: Computing Equipment
+  file: computer_spec.md
 - title: Reading list
   file: reading_list.md
 - title: Index
