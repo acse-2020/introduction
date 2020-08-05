@@ -7,6 +7,8 @@
   file: teams/intro.md
 - title: Jupyter Notebooks
   file: jupyter/intro.md
+  sections:
+  - file: jupyter/example_notebook.ipynb
 - title: The Python Language
   file: python/intro.md
 - title: Git & GitHub

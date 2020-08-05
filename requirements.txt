@@ -8,3 +8,4 @@ nbinteract
 scipy
 sphinx==2.4.4
 jupyter-book==0.7.0
+sphinx-thebe
