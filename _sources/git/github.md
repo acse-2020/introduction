@@ -16,7 +16,7 @@ This text is based on the relevant [GitHub documentation](https://docs.github.co
 1. Log out of any existing GitHub accounts.
 2. Go to GitHub's [pricing](https://github.com/pricing) page.
 3. Select 'Join for Free'.
-4. Enter the username as `acse-<your application/CID number>`, so a student with the number 01234567 would use `acse-01234567`
+4. Enter your username as `acse-<your application/CID number>`, so a student with the number 01234567 would use `acse-01234567`
 5. Pick a secure password matching either of the patterns on the page.
 6. Complete the verification puzzle to show you aren't a robot and click 'create account'.
 7. You should receive notification that your new accound has been created, as well as a message to allow you to verify your email account. Please do so. If you have problems with this step, see the [documentation](https://docs.github.com/en/github/getting-started-with-github/verifying-your-email-address).
