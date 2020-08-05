@@ -6,4 +6,7 @@ p {
 }
 
 
-main.bd-content #main-content h2{ color: rgb(50, 30, 100); }
+main.bd-content #main-content h2, main.bd-content #main-content h3{
+    color: rgb(50, 30, 100);
+}
+
