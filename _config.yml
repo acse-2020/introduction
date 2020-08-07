@@ -51,3 +51,6 @@ sphinx:
   extra_extensions:
   - sphinx_thebe
   config                    :   # key-value pairs to directly over-ride the Sphinx configuration
+    thebe_config:
+      "repository_url": "https://github.com/acse-2020/introduction"
+      "repository_branch": "master"
