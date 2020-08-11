@@ -32,9 +32,9 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".cell"
+        const thebe_selector_input = ".cell_input div.highlight"
+        const thebe_selector_output = ".cell_output div.highlight"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -259,7 +259,7 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> On this page
+            <i class="fas fa-list"></i> Contents
         </div>
         <nav id="bd-toc-nav">
             
@@ -273,10 +273,13 @@
                 
   <div class="section" id="example-notebook">
 <h1>Example notebook<a class="headerlink" href="#example-notebook" title="Permalink to this headline">¶</a></h1>
-<p>This is an example of a Jupyter notebook. It contains both “Markdown” text cells and Python code cells.</p>
+<p>This is an example of the content available in a Jupyter notebook. It contains both “Markdown” cells (containing formated text and images) and code cells (in this case Python3 code).</p>
+<p>Live code can be interacted with in a number of ways. Those reading on the Jupyter Book at <a class="reference external" href="https://acse-2020.github.io/introduction">https://acse-2020.github.io/introduction</a> can start an in-page interactive session by clicking the following button:</p>
 <button title="Run code" class="thebelab-button thebe-launch-button"onclick="initThebe()">Run code</button><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># This is a code cell</span>
+<span class="c1"># Click the button above, once it reads &quot;Launching from mybinder.org; ready&quot;</span>
+<span class="c1"># the code here can be editted and re-run</span>
 
 <span class="n">x</span> <span class="o">=</span> <span class="mi">7</span>
 <span class="n">y</span> <span class="o">=</span> <span class="mi">10</span>
@@ -293,6 +296,8 @@
 </div>
 </div>
 </div>
+<p>The entire GitHub repository serving these pages can be served on a free community servive, <a class="reference external" href="https://mybinder.org">https://mybinder.org</a> by clicking the <i class="fas fa-rocket"></i> icon above and selcting “Binder”. This provides the classic Jupyter notebook interface.</p>
+<p>Future ACSE students will be able to connect to a dedicated course Jupyterhub instance once they have created a correctly named GitHub account, as described elsewhere on this site.</p>
 </div>
 
     <script type="text/x-thebe-config">

@@ -8,7 +8,7 @@ Although extremely powerful, `git` can be intimidating for new users. Practice i
 
 ## Installation
 
-Git is preinstalled on Mac OS X and many popular Linux distributions. Windows users should see {./software/intro} for our recommended instructions on installing the git command line tools.
+Git is preinstalled on Mac OS X and many popular Linux distributions. Windows users should see {doc}`../software/intro` for our recommended instructions on installing the git command line tools.
 
 ## Software Carpentry Lectures
 
