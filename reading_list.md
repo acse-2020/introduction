@@ -8,7 +8,7 @@ This page collects written material which may be useful before the course starts
 - Algorithms, by Robert Sedgewick and Kevin Wayne
 - Bits and bugs, by Thomas Huckle and Tobias Neckel
 
-## ACXE 2 - Modelling Dynamical Processes
+## ACSE 2 - Modelling Dynamical Processes
 
 - An Introduction to Continuum Mechanics by J. N. Reddy
 - Principles of Continuum Mechanics by J. N. Reddy
@@ -29,7 +29,7 @@ This page collects written material which may be useful before the course starts
 - A Tour of C++ by Bjarne Stroustrup
 - Programming - Principles and Practise Using C++ by Bjarne STroustrup
 
-## ACSE 8 - Machine LEarning
+## ACSE 8 - Machine Learning
 
 - Pattern Recognition and Machne Learning by Christoper M. Bishop
 - Deep Learning by Iann Goodfellow, Yoshua Bengio and Aaron Courville
