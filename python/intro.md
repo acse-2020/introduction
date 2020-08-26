@@ -15,11 +15,16 @@ While the ACSE course provides introductory lectures in programming, you may fin
 
 ## Assessed Notebooks
 
-As a learning exercise, the ACSE course has produced the following four Jupyter notebooks. Completing these will form the first assessed exercise of the term. Your submission will be GitHub, using a link to a repository which will be provided to you.
+As a learning exercise, the ACSE course has produced the following four Jupyter notebooks. Completing these will form the first assessed exercise of the term. Your submission will be via GitHub, using a link to a repository which will be provided to you during the first week of term (the week commencing 5th October).
+
+- Notebook 1
+- Notebook 2
+- Notebook 3
+- Notebook 4
 
 ## Additional Materials
 
 Undergraduate level teaching materials regarding Python produced by the Earth Science and Engineering department at Imperial College London are available [here](https://primer-computational-mathematics.github.io/book/coding/intro.html)
 
-## Learning Resources
+## Other Learning Resources
 

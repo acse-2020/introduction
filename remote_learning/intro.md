@@ -30,4 +30,8 @@ If working on a laptop or other mobile device, you may also want to consider cha
 The ACSE course is a full time activity, and is not easily combined with other duties. Make sure that housemates and household family members know when you are working and when you are available. If you find that caring responsibilities are adversely affecting your studies, please talk to your lecturer, your Personal Postgraduate Tutor or some other member of college teaching staff.
 
 
-### Resources
+### Other Resources
+
+- [Advice](https://www.theguardian.com/education/2020/mar/26/how-to-study-at-home-during-coronavirus-by-online-students-and-tutors) from The Guardian Newspaper.
+- Online [study tips](https://help.open.ac.uk/study-tips-for-online-modules) from the UK's Open University.
+- Harvard University's [remote learning advice](https://academicresourcecenter.harvard.edu/learning-remotely).

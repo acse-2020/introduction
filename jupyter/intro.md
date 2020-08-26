@@ -8,7 +8,7 @@ Notebooks are a popular tool for the teaching of computer programming, as well a
 
 ## Using notebooks
 
-As a web application, Jupyter notebooks run through a web browser. To work you must connect to a notebook server on which your notebook runs. This can be via the web (remote) or running on your own computer (local)
+As a web application, Jupyter notebooks run through a web browser. To work you must connect to a notebook server on which your notebook runs. This can be via the web (remote) or running on your own computer (local).
 
 ### Remote Servers
 
@@ -16,7 +16,7 @@ On the ACSE course you will be provided with a personal link to a preconfigured 
 
 ### Local Servers
 
-To run Jupyter locally, we recommend a distribution called Anaconda. See {doc}`software/intro` for installation instructions. Once it is installed, Jupyter can easily be started from the navigator.
+To run Jupyter locally, we recommend a Python distribution called Anaconda. See {doc}`software/intro` for installation instructions. Once it is installed, Jupyter can easily be started via the start menu (on Windows) from the Anaconda navigator, or from the command line.
 
 ## Learning Resources
 
