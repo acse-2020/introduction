@@ -25,7 +25,6 @@
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script src="../_static/mystnb.js"></script>
     <script src="../_static/sphinx-book-theme.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
@@ -277,7 +276,7 @@
 <p>Live code can be interacted with in a number of ways. Those reading on the Jupyter Book at <a class="reference external" href="https://acse-2020.github.io/introduction">https://acse-2020.github.io/introduction</a> can start an in-page interactive session by clicking the following button:</p>
 <button title="Run code" class="thebelab-button thebe-launch-button"onclick="initThebe()">Run code</button><div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># This is a code cell</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># This is a code cell</span>
 <span class="c1"># Click the button above, once it reads &quot;Launching from mybinder.org; ready&quot;</span>
 <span class="c1"># the code here can be editted and re-run</span>
 
@@ -291,9 +290,29 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>7
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>7
 </pre></div>
 </div>
+</div>
+</div>
+<p>Code cells can contain any valid python statement, including the <code class="docutils literal notranslate"><span class="pre">import</span></code> command. Through IPython “magic” commands, they can even include graphics from the <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> package.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7f419b41bd90&gt;]
+</pre></div>
+</div>
+<img alt="../_images/example_notebook_3_1.png" src="../_images/example_notebook_3_1.png" />
 </div>
 </div>
 <p>The entire GitHub repository serving these pages can be served on a free community servive, <a class="reference external" href="https://mybinder.org">https://mybinder.org</a> by clicking the <i class="fas fa-rocket"></i> icon above and selcting “Binder”. This provides the classic Jupyter notebook interface.</p>

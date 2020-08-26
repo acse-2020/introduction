@@ -10,4 +10,4 @@ In general version control works best with serial, simple files such as the text
 - Organizing students work during practical exercises.
 - The distribution and submission of assignments.
 
-Please see the {doc}{`./git/git`} and {doc}`./git/github} pages for more information and resources.
+Please see the {doc}`./git` and {doc}`./github` pages for more information and resources.

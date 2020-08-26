@@ -27,18 +27,21 @@ Docker is a containerization software that we will use to distribute some codes 
 It can be downloaded from [this page](https://docs.docker.com/docker-for-windows/install/). 
 Follow the sign up and installation instructions above. If virtualization has been disabled in your computer's BIOS, you may need to [reenable it](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html). This may require rebooting your computer.
 
-## Git
+## Git (on Windows)
 
 Git is a version control software that will be widely used throughout the course. 
-The windows version can be downloaded and installed from [her](https://git-scm.com/download/win). 
-If asked for a default text editor and you know none of the options, choose nano.
+The windows version can be downloaded and installed from [here](https://git-scm.com/download/win). 
+If asked for a default text editor and you know none of the options, choose `nano`. Mac OS and Linux machines will typically have `git` preinstalled.
 
 ## SSH (on Windows)
 
 The Secure Shell (SSH) is a method to securely access remote computers such as HPC systems. To install OpenSSH:
 - Start Settings then go to Apps > Apps and Features > Manage Optional Features.
 - Scan this list to see if OpenSSH client is already installed. If not, then at the top of the page select "Add a feature", then locate "OpenSSH Client", then click "Install".
+Mac OS and Linux machines will typically have `ssh` preinstalled.
 
 ## Visual Studio Code
 
-This lightwweight, open source code editor from Microsoft is available [here](https://code.visualstudio.com/). It offers an extensible interface supporting multiple languages and many heavy duty IDE-like features, supported by a wide community.
+This lightwweight, open source code editor from Microsoft is available [here](https://code.visualstudio.com/). It offers an extensible interface supporting multiple languages and many heavy duty IDE-like features, supported by a wide community. This will be the primary tool used in the course to write standalone Python programs and modules.
+
+## Visual Studio (on Windows)

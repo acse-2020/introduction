@@ -19,4 +19,4 @@ Before the course starts on 5th October 2020, future ACSE students are expected 
 
 ## On the first day
 
-On the 5th October at 9am BST, the first event will be a Teams meeting with the Course director, Dr. Gerard Gorman. A link to this meeting will be distributed in September.
+On the 5th October at 9am BST, the first event will be a Teams meeting with the Course director, Dr. Gerard Gorman. A link to this meeting will be distributed in late September.
