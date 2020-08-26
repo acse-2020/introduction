@@ -1,16 +1,25 @@
 - title: Welcome to ACSE
   file: home.md
-- header: Course Material
+- title: ACSE Code of Conduct
+  file: code_of_conduct.md
+- title: Computing Equipment
+  file: computer_spec.md
+
+- header: Getting Started
 - title: Remote Learning
   file: remote_learning/intro.md
+- title: Software Installation Guide
+  file: software/intro.md
 - title: Microsoft Teams
   file: teams/intro.md
+  
+- header: Course Primer
+- title: Command Line Interfaces
+  file: command_lines/intro.md
 - title: Jupyter Notebooks
   file: jupyter/intro.md
   sections:
   - file: jupyter/example_notebook.ipynb
-- title: The Python Language
-  file: python/intro.md
 - title: Git & GitHub
   file: git/intro.md
   sections:
@@ -18,18 +27,13 @@
     file: git/git.md
   - title: GitHub.com 
     file: git/github.md
-- title: The Command Line
-  file: command_lines/intro.md
+- title: Python
+  file: python/intro.md
 - title: Mathematics
   file: maths/intro.md
-- title: Software Installation Guide
-  file: software/intro.md
+  
 - header: Useful Links
-- title: ACSE Code of Conduct
-  file: code_of_conduct.md
-- title: Computing Equipment
-  file: computer_spec.md
 - title: Reading list
   file: reading_list.md
-- title: Index
-  file: genindex.rst
+#- title: Index
+# file: genindex.rst
