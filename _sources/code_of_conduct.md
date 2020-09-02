@@ -15,7 +15,7 @@ people of many different backgrounds. Sexual language and imagery are not
 appropriate.
 
 ACSE is dedicated to providing a harassment-free community for everyone,
-regardless of age, disability, gender race, belief (or lack
+regardless of age, disability, gender, race, belief (or lack
 thereof), experience or any other dimension of diversity. We do not
 tolerate harassment of community members (i.e. students, staff, visitors) in
 any form.

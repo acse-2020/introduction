@@ -40,5 +40,5 @@ This page collects written material which may be useful before the course starts
 
 ## ACSE 8 - Machine Learning
 
-- Pattern Recognition and Machne Learning by Christoper M. Bishop
+- Pattern Recognition and Machine Learning by Christoper M. Bishop
 - [Deep Learning](http://www.deeplearningbook.org) by Iann Goodfellow, Yoshua Bengio and Aaron Courville
