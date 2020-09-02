@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A significant proportion of the teaching material for the ACSE course is delivered via [Jupyter Notebooks](https://jupyter.org)). This is a web-application supporting a number of programming languages, most notably Python, which creates, shares and runs files containing a mix of conputer code and free form text.
+A significant proportion of the teaching material for the ACSE course is delivered via [Jupyter Notebooks](https://jupyter.org)). This is a web-application supporting a number of programming languages, most notably Python, which creates, shares and runs files containing a mix of computer code and free form text.
 
 Notebooks are a popular tool for the teaching of computer programming, as well as being in everyday use in the fields of data science and machine learning.
 
