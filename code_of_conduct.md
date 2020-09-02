@@ -84,14 +84,14 @@ Examples of unacceptable behaviour include:
 * Use of stereotypes
 * Incitement to violence, suicide or self-harm
 * Sustained disruptions of talks, workshops events or communications
-* The display of violent images
+* The display of violent or sexualized images
 * Causing someone to fear for their safety through stalking, following, intimidation, or threatening
 * Unwelcome and repeated flirtations, propositions, advances, or other sexual attention – including gratuitous or off-topic sexual images or behaviour
 * Non-consensual or unwelcome physical contact
 * Sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
 * Continuing to initiate interaction with someone after being explicitly asked to stop
 * Offensive, insulting, derogatory, or degrading remarks
-* Demands for sexual favours in exchange for favourable or preferential treatment
+* Demands for, or offers of, sexual favours in exchange for favourable or preferential treatment
 * Advocating for, or encouraging any of the above behaviours
 
 ## Consequences of Unacceptable Behaviour
@@ -143,7 +143,7 @@ In your report, please do your best to include:
 ## What to do if someone is in physical danger?
 
 If you believe someone is in physical danger, please ask a committee member,
-staff member or volunteer to contact appropriate emergency responders. All
+staff member or volunteer to contact appropriate emergency responders. On campus, [College security](https://www.imperial.ac.uk/estates-facilities/security/emergency-contacts/) provide 24/7 support. All
 event organizers should, before the event, determine who would be appropriate
 to contact in case of an incident and make sure this information is available
 at all times over the duration of the event in question.
@@ -162,7 +162,7 @@ Conduct committee, which is designated by the course director and should be
 comprised of at least three members.
 
 The current Code of Conduct committee is formed of Gareth Collins
-(g.collins@imperial.ac.uk), James Pervical (j.percival@imperial.ac.uk),
+(g.collins@imperial.ac.uk), James Percival (j.percival@imperial.ac.uk),
 Adriana Paluszny (apaluszn@imperial.ac.uk), Saskia Goes
 (s.goes@imperial.ac.uk), Gareth Roberts (gareth.roberts@imperial.ac.uk) and
 Lorraine Craig (l.craig@imperial.ac.uk).
@@ -231,7 +231,7 @@ Possible outcomes may include:
 * Ending a talk that violates the Code of Conduct early
 * A public announcement of an incident, ideally in the same venue that the violation occurred.
 * Immediately ending any event volunteer responsibilities and privileges the individual(s) hold(s).
-* An imposed suspension from the programme platforms. The course director will communicate this suspension to the individual(s). They’ll be asked to take this vacation voluntarily, but if they don’t agree then a temporary ban may be imposed to enforce this vacation. Where this impacts on teaching and learning, the individual will be refered to relevant [college procedures for student and staff discipline](https://www.imperial.ac.uk/about/governance/academic-governance/academic-policy/complaints-appeals-and-discipline/).
+* An imposed suspension from the programme platforms. The course director will communicate this suspension to the individual(s). They’ll be asked to take this vacation voluntarily, but if they don’t agree then a temporary ban may be imposed to enforce this vacation. Where this impacts on teaching and learning, the individual will be referred via relevant [college procedures for student and staff discipline](https://www.imperial.ac.uk/about/governance/academic-governance/academic-policy/complaints-appeals-and-discipline/).
 * A permanent or temporary ban from some or all ACSE spaces.
 * Supporting the complainant in reporting to other bodies, for example, institutional offices or appropriate law enforcement agencies.
 
@@ -243,7 +243,7 @@ committee is not required to act on this feedback.
 
 Finally the committee will make a report to the course director. The Code of
 Conduct committee will never publicly discuss the details of the issue; all
-public statements will be made by the Society Chair.
+public statements will be made by the course director.
 
 ## Conflicts of interests
 In the event of any conflict of interest (a committee member, their family
@@ -262,4 +262,4 @@ significantly contributed to this Code of Conduct:
 
 ## License
 Content on this site is licensed under a Creative Commons Attribution 4.0
-International License © 2019
+International License © 2019-20
