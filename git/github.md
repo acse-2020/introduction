@@ -1,10 +1,10 @@
 # The Github.com Website
 
-<GitHub.com> is a web-based repository and collaboration system for code (and other material) controlled via the [git]() version control system. Owned by Microsoft, it is the home for a large number of open sourcse sowftware projects including:
+[GitHub.com](https://github.com) is a web-based repository and collaboration system for code (and other material) controlled via the [git]() version control system. Owned by Microsoft, it is the home for a large number of open sourcse sowftware projects including:
 
-- Numpy - a Python numerics package
--
--
+- `numpy` - a Python numerics package
+- `node.js` - a Javascript framework for web applications
+- `homebrew` - a Mac package managedr containing popular open source software
 
 On the ACSE course, github is used both to hold teaching materials and as a submission mechanism for assignments. As such, it is important you have a specific github account for your work, even if you have used the service before.
 
