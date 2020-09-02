@@ -12,6 +12,8 @@ This page collects written material which may be useful before the course starts
 
 - An Introduction to Continuum Mechanics by J. N. Reddy
 - Principles of Continuum Mechanics by J. N. Reddy
+- [Introduction to Continuum Mechanics](https://eu.alma.exlibrisgroup.com/view/action/uresolver.do?operation=resolveService&package_service_id=39539344970001591&institutionId=1591&customerId=1580) by W.M. Lai, D. Rubin and E. Krempl
+- [Introduction to Applied Linear Algebra]( https://web.stanford.edu/~boyd/vmls/ ) by Stephen Boyd and Lieven Vandenberghe
 
 ## ACSE 3 - Numerical Methods
 
@@ -39,4 +41,4 @@ This page collects written material which may be useful before the course starts
 ## ACSE 8 - Machine Learning
 
 - Pattern Recognition and Machne Learning by Christoper M. Bishop
-- Deep Learning by Iann Goodfellow, Yoshua Bengio and Aaron Courville
+- [Deep Learning](http://www.deeplearningbook.org) by Iann Goodfellow, Yoshua Bengio and Aaron Courville
