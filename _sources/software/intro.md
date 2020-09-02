@@ -25,7 +25,7 @@ The Windows Subsystem for Linux (\url{https://docs.microsoft.com/en-us/windows/w
 
 Docker is a containerization software that we will use to distribute some codes that do not natively run on Windows or Macs. 
 It can be downloaded from [this page](https://docs.docker.com/docker-for-windows/install/). 
-Follow the sign up and installation instructions above. If virtualization has been disabled in your computer's BIOS, you may need to [reenable it](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html). This may require rebooting your computer.
+Follow the sign up and installation instructions above. If virtualization has been disabled in your computer's BIOS, you may need to [re-enable it](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html). This may require rebooting your computer.
 
 ## Git (on Windows)
 
@@ -42,6 +42,6 @@ Mac OS and Linux machines will typically have `ssh` preinstalled.
 
 ## Visual Studio Code
 
-This lightwweight, open source code editor from Microsoft is available [here](https://code.visualstudio.com/). It offers an extensible interface supporting multiple languages and many heavy duty IDE-like features, supported by a wide community. This will be the primary tool used in the course to write standalone Python programs and modules.
+This lightweight, open source code editor from Microsoft is available [here](https://code.visualstudio.com/). It offers an extensible interface supporting multiple languages and many heavy duty IDE-like features, supported by a wide community. This will be the primary tool used in the course to write standalone Python programs and modules.
 
 ## Visual Studio (on Windows)
