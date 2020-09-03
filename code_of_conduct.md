@@ -57,7 +57,7 @@ with the enforcement of the Code of Conduct in their respective capacities.
 By participating in ACSE, individuals indicate their acceptance of the
 procedures by which the ACSE resolves any Code of Conduct incidents.
 
-## Expected behaviour
+## Expected behaviour
 
 All participants in our events and communications are expected to show
 respect and courtesy to others and all interactions should be professional,
