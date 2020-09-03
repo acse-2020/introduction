@@ -84,7 +84,7 @@ Examples of unacceptable behaviour include:
 * Use of stereotypes
 * Incitement to violence, suicide or self-harm
 * Sustained disruptions of talks, workshops events or communications
-* The display of violent or sexualized images
+* The display of violent or sexualized images or videos
 * Causing someone to fear for their safety through stalking, following, intimidation, or threatening
 * Unwelcome and repeated flirtations, propositions, advances, or other sexual attention – including gratuitous or off-topic sexual images or behaviour
 * Non-consensual or unwelcome physical contact
