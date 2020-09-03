@@ -5,7 +5,7 @@
 
 Be kind to others. Do not insult or put down others. Behave professionally.
 Remember that harassment and sexist, racist, or exclusionary jokes are not
-appropriate for ACSE.
+appropriate.
 
 If you have a question about the code of conduct or wish to report
 misconduct, please email ese-msc-acse@imperial.ac.uk.
@@ -14,9 +14,9 @@ All communication should be appropriate for a professional audience including
 people of many different backgrounds. Sexual language and imagery are not
 appropriate.
 
-ACSE is dedicated to providing a harassment-free community for everyone,
-regardless of age, disability, gender, race, belief (or lack
-thereof), experience or any other dimension of diversity. We do not
+ACSE is dedicated to providing a supportive and harassment-free community for everyone,
+regardless of age, disability, gender, race, belief or lack
+thereof, experience or any other dimension of diversity. We do not
 tolerate harassment of community members (i.e. students, staff, visitors) in
 any form.
 
@@ -73,7 +73,7 @@ The following kinds of behaviours in all ACSE events and platforms are encourage
 * Adhering to the Code of Conduct
 * Being direct, but professional
 * Asking for consent and respecting people’s boundaries
-* Being aware of the dynamics of power and privilege (be mindful of how much time and space you are taking up)
+* Being aware of the dynamics of power and privilege
 
 ## Unacceptable behaviour
 Examples of unacceptable behaviour include:
@@ -83,9 +83,9 @@ Examples of unacceptable behaviour include:
 * Improper gestures
 * Use of stereotypes
 * Incitement to violence, suicide or self-harm
-* Sustained disruptions of talks, workshops events or communications
-* The display of violent or sexualized images
-* Causing someone to fear for their safety through stalking, following, intimidation, or threatening
+* Sustained, nonconstructive disruptions of talks, workshops events or communications
+* The display of violent or sexualized images or videos
+* Causing someone to fear for their safety through, for example stalking, following, intimidation, or threatening
 * Unwelcome and repeated flirtations, propositions, advances, or other sexual attention – including gratuitous or off-topic sexual images or behaviour
 * Non-consensual or unwelcome physical contact
 * Sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
@@ -221,10 +221,8 @@ within one week. In the event that a resolution can’t be determined in that
 time, the committee will respond to the reporter(s) with an update and
 projected timeline for resolution.
 
-# Resolutions
-The Code of conduct committee must agree on a resolution by consensus of all members investigating the report in question. If the committee cannot reach a consensus over the one week period, this matter will be presented to all of the Society trustees for a final resolution.
-
-Possible outcomes may include:
+## Resolutions
+The Code of conduct committee must agree on a resolution by consensus of all members investigating the report in question. Possible outcomes may include:
 
 * Taking no further action (if it is determined that there was no violation).
 * A private reprimand from the committee to the individual(s) involved. In this case, the Director will deliver that reprimand to the individual(s) over email, cc’ing the committee.
