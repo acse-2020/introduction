@@ -27,6 +27,13 @@ Once you have completed the installs, you can confirm that WSL2 is enabled and u
 wsl -l -v
 ```
 
+which should return a line similar to:
+
+```
+  NAME            STATE           VERSION
+* Ubuntu-20.04    Stopped         2
+```
+
 ## Docker
 
 Docker is a containerization software that we will use to distribute some codes that do not natively run on Windows or Macs. 
