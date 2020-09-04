@@ -21,6 +21,12 @@ or [Firefox](https://www.mozilla.org/en-GB/firefox/new/) to have the most consis
 
 The [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) extends Microsoft Windows by providing an embedded Linux kernel, and simplifies installation of other software such as Docker, as well as providing access to a linux shell. Use of WSL version 2 is highly encouraged for compatibility with Visual Studio Code. Please refer to the [Microsoft Documentation for enabling WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Once WSL2 is installed, it is recommended to follow on by installing a Linux distribution such as [Ubuntu from the Microsoft Store](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71).
 
+Once you have completed the installs, you can confirm that WSL2 is enabled and used for Ubuntu by running the following powershell command:
+
+```
+wsl -l -v
+```
+
 ## Docker
 
 Docker is a containerization software that we will use to distribute some codes that do not natively run on Windows or Macs. 
@@ -44,5 +50,7 @@ Mac OS and Linux machines will typically have `ssh` preinstalled.
 ## Visual Studio Code
 
 This lightweight, open source code editor from Microsoft is available [here](https://code.visualstudio.com/). It offers an extensible interface supporting multiple languages and many heavy duty IDE-like features, supported by a wide community. This will be the primary tool used in the course to write standalone Python programs and modules.
+
+Before install Visual Studio Code on Windows, it is highly recommended to have set up WSL2, Ubuntu, and Docker Desktop. If you have completed these steps, Visual Studio Code will automatically prompt you to use WSL2 as a back-end for development during the install process. You should also be prompted to install the WSL2 backend extension after Visual Studio Code runs for the first time.
 
 ## Visual Studio (on Windows)
