@@ -19,7 +19,7 @@ or [Firefox](https://www.mozilla.org/en-GB/firefox/new/) to have the most consis
 
 ## Windows Subsystem for Linux (for Windows users)
 
-The Windows Subsystem for Linux (\url{https://docs.microsoft.com/en-us/windows/wsl/about}) extends Microsoft Windows by providing an embedded Linux kernel, and simplifies installation of other software such as Docker, as well as providing access to a linux shell. Use of WSL version 2 is highly encouraged for compatibility with Visual Studio Code. Instructions for enabling WSL2 are available at (\url(https://docs.microsoft.com/en-us/windows/wsl/install-win10))
+The Windows Subsystem for Linux (\url{https://docs.microsoft.com/en-us/windows/wsl/about}) extends Microsoft Windows by providing an embedded Linux kernel, and simplifies installation of other software such as Docker, as well as providing access to a linux shell. Use of WSL version 2 is highly encouraged for compatibility with Visual Studio Code. Instructions for enabling WSL2 are available at (\url{https://docs.microsoft.com/en-us/windows/wsl/install-win10})
 
 ## Docker
 
