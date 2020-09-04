@@ -24,7 +24,8 @@ The [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/a
 ## Docker
 
 Docker is a containerization software that we will use to distribute some codes that do not natively run on Windows or Macs. 
-It can be downloaded from [this page](https://docs.docker.com/docker-for-windows/install/). 
+Windows users are recommended to install Docker using the [WSL2 backend](https://docs.docker.com/docker-for-windows/wsl/) which has prerequisites of [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10), an [upgraded kernel](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi), and an [installed linux distrobution](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71).
+
 Follow the sign up and installation instructions above. If virtualization has been disabled in your computer's BIOS, you may need to [re-enable it](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html). This may require rebooting your computer.
 
 ## Git (on Windows)
