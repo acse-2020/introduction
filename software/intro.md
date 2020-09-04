@@ -44,6 +44,8 @@ which should return a line similar to:
 * Ubuntu-20.04    Stopped         2
 ```
 
+If you are already using WSL1 and want to make WSL2 the default for new images (this may be necessary for later Docker/Visual Studio Code requirements) follow instructions from the [documention by Microsoft to change the default WSL version](https://docs.microsoft.com/en-us/windows/wsl/install-win10#set-wsl-2-as-your-default-version).
+
 ## Docker
 
 [Docker](https://www.docker.com/products/docker-desktop) is containerization software that we will use to distribute some codes that do not natively run on Windows or Macs.
