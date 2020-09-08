@@ -34,7 +34,7 @@ both offline and online. Everyone’s participation is contingent upon
 following these guidelines in all activities associated with ACSE including
 but not limited to:
 
-* Lecturers, tutorials, conferences, workshops, and webinars
+* Lectures, tutorials, conferences, workshops, and webinars
 * Email lists and online forums like Teams, Slack, Twitter, GitHub, and LinkedIn
 * Representing ACSE at public events
 
@@ -57,7 +57,7 @@ with the enforcement of the Code of Conduct in their respective capacities.
 By participating in ACSE, individuals indicate their acceptance of the
 procedures by which the ACSE resolves any Code of Conduct incidents.
 
-## Expected behaviour
+## Expected behaviour
 
 All participants in our events and communications are expected to show
 respect and courtesy to others and all interactions should be professional,
