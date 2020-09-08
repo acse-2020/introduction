@@ -34,7 +34,7 @@ both offline and online. Everyone’s participation is contingent upon
 following these guidelines in all activities associated with ACSE including
 but not limited to:
 
-* Lecturers, tutorials, conferences, workshops, and webinars
+* Lectures, tutorials, conferences, workshops, and webinars
 * Email lists and online forums like Teams, Slack, Twitter, GitHub, and LinkedIn
 * Representing ACSE at public events
 
