@@ -297,6 +297,7 @@
   <div class="section" id="software-installation">
 <h1>Software Installation<a class="headerlink" href="#software-installation" title="Permalink to this headline">¶</a></h1>
 <p>The ACSE course uses a variety of software. While cloud-based solutions will be made available to you as much as possible, there may be occasions where you wish to install the software on your own computer, either for performance purposes, or to access offline. This section lists the software, and provides links and instructions to install as necessary.</p>
+<p>Users of the course Azure Labs systems have this software suite available by default.</p>
 <div class="section" id="microsoft-teams">
 <h2>Microsoft Teams<a class="headerlink" href="#microsoft-teams" title="Permalink to this headline">¶</a></h2>
 <p>Microsoft Teams, for lectures &amp; team work can be downloaded <a class="reference external" href="https://products.office.com/en-us/microsoft-teams/download-app">here</a>.</p>
@@ -326,6 +327,7 @@ or <a class="reference external" href="https://www.mozilla.org/en-GB/firefox/new
 <ul class="simple">
 <li><p>Restart your system</p></li>
 </ul>
+<p>If you are already using WSL1 and want to make WSL2 the default for new images (this may be necessary for later Docker/Visual Studio Code requirements) follow instructions from the <a class="reference external" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10#set-wsl-2-as-your-default-version">documention by Microsoft to change the default WSL version</a>. This will also be necessary if you are running an version of Windows 10 prior to 20.04 (WSL2 is supported on 19.03 and 19.09).</p>
 <p>Once WSL2 is installed, it is recommended to follow on by installing a Linux distribution such as <a class="reference external" href="https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71">Ubuntu from the Microsoft Store</a>.</p>
 <p>Once you have completed the installs, you can confirm that WSL2 is enabled and used for Ubuntu by running the following powershell command:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wsl</span> <span class="o">-</span><span class="n">l</span> <span class="o">-</span><span class="n">v</span>
@@ -336,7 +338,6 @@ or <a class="reference external" href="https://www.mozilla.org/en-GB/firefox/new
 <span class="o">*</span> <span class="n">Ubuntu</span><span class="o">-</span><span class="mf">20.04</span>    <span class="n">Stopped</span>         <span class="mi">2</span>
 </pre></div>
 </div>
-<p>If you are already using WSL1 and want to make WSL2 the default for new images (this may be necessary for later Docker/Visual Studio Code requirements) follow instructions from the <a class="reference external" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10#set-wsl-2-as-your-default-version">documention by Microsoft to change the default WSL version</a>.</p>
 </div>
 <div class="section" id="docker">
 <h2>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
