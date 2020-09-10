@@ -2,6 +2,8 @@
 
 The ACSE course uses a variety of software. While cloud-based solutions will be made available to you as much as possible, there may be occasions where you wish to install the software on your own computer, either for performance purposes, or to access offline. This section lists the software, and provides links and instructions to install as necessary.
 
+Users of the course Azure Labs systems have this software suite available by default.
+
 ## Microsoft Teams
 
 Microsoft Teams, for lectures & team work can be downloaded [here](https://products.office.com/en-us/microsoft-teams/download-app).
@@ -29,6 +31,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 * Restart your system
 
+If you are already using WSL1 and want to make WSL2 the default for new images (this may be necessary for later Docker/Visual Studio Code requirements) follow instructions from the [documention by Microsoft to change the default WSL version](https://docs.microsoft.com/en-us/windows/wsl/install-win10#set-wsl-2-as-your-default-version). This will also be necessary if you are running an version of Windows 10 prior to 20.04 (WSL2 is supported on 19.03 and 19.09).
+
 Once WSL2 is installed, it is recommended to follow on by installing a Linux distribution such as [Ubuntu from the Microsoft Store](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71).
 
 Once you have completed the installs, you can confirm that WSL2 is enabled and used for Ubuntu by running the following powershell command:
@@ -44,7 +48,6 @@ which should return a line similar to:
 * Ubuntu-20.04    Stopped         2
 ```
 
-If you are already using WSL1 and want to make WSL2 the default for new images (this may be necessary for later Docker/Visual Studio Code requirements) follow instructions from the [documention by Microsoft to change the default WSL version](https://docs.microsoft.com/en-us/windows/wsl/install-win10#set-wsl-2-as-your-default-version).
 
 ## Docker
 
