@@ -5,8 +5,7 @@ apt-get -y dist-upgrade
 apt-get -y install curl vim openssh-client git sudo gcc python3-devel pkg-config \
           build-essential libcurl4-openssl-dev libsqlite3-dev graphviz \
           apt-transport-https ca-certificates gnupg-agent software-properties-common \
-          openssl jq emacs wajig texlive-latex-extra nodejs npm openjdk-11-jdk golang \
-          g++ gfortran libglu1-mesa
+          openssl emacs g++ libglu1-mesa
 
 rm -rf /var/lib/apt/lists/*
 
@@ -23,7 +22,7 @@ popd /tmp
 rm -rf onedrive ~/dlang
 
 pip install wheel
-pip install jupyterhub ipykernel notebook ipywidgets mpltools nbformat nbconvert ipyparallel okpy toolz bokeh dask distributed pandas pandas-datareader tables scikit-learn scikit-image snakeviz ujson s3fs fastparquet dask-ml cachey graphviz partd"
+pip install ipykernel notebook ipywidgets mpltools nbformat nbconvert ipyparallel okpy toolz bokeh dask distributed pandas pandas-datareader tables scikit-learn scikit-image snakeviz ujson s3fs fastparquet dask-ml cachey graphviz partd torch seaborn livelossplot torchvision pycm
 
 docker gpg key and repository
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
