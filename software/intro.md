@@ -14,6 +14,15 @@ The Anaconda distribution is a Python distribution with a lot of pre-packaged li
 Download and install should be straightforward from [this page](https://www.anaconda.com/products/individual). 
 Be careful to select the 64-Bit Python 3.7 version for your OS.
 
+Once anaconda is installed, you may wish to install a suite of supporting packages which are used by course notebooks. Most of these are available through the conda package system. At a command prompt with conda enabled (on Windows type 'anaconda prompt' into the search box) enter the following commands:
+
+```
+conda config --append channels conda-forge
+conda config --append channels pytorch
+conda config --append channels sepandhaghighi
+conda install jupyterhub ipykernel notebook ipywidgets nbformat nbconvert ipyparallel toolz bokeh dask distributed pandas pandas-datareader scikit-learn scikit-image snakeviz ujson s3fs fastparquet dask-ml graphviz partd seaborn mpltools pytables cachey pytorch torchvision pycm
+```
+
 ## Chrome or Firefox
 
 While most software and examples will work in any modern browser, including Edge or Safari, we recommend [Chrome](https://www.google.com/chrome/)
