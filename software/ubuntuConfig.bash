@@ -2,12 +2,12 @@
 
 apt-get update
 apt-get -y dist-upgrade
-apt-get -y install curl vim openssh-client git sudo gcc python3-devel pkg-config \
+apt-get -y install curl vim openssh-client git sudo gcc python3-dev pkg-config \
           build-essential libcurl4-openssl-dev libsqlite3-dev graphviz \
           apt-transport-https ca-certificates gnupg-agent software-properties-common \
-          openssl emacs g++ libglu1-mesa
+          openssl emacs g++ libglu1-mesa python3-pip jq emacs wajig texlive-latex-extra \
+	  nodejs npm openjdk-11-jdk golang
 
-rm -rf /var/lib/apt/lists/*
 
 echo "dash dash/sh boolean false" | debconf-set-selections
 DEBIAN_FRONTEND=noninteractive dpkg-reconfigure dash
@@ -18,13 +18,14 @@ pushd /tmp
 git clone https://github.com/abraunegg/onedrive.git
 pushd /tmp/onedrive
 . ~/dlang/dmd-*/activate && ./configure && make install
-popd /tmp 
+popd
 rm -rf onedrive ~/dlang
+popd
 
-pip install wheel
-pip install ipykernel notebook ipywidgets mpltools nbformat nbconvert ipyparallel okpy toolz bokeh dask distributed pandas pandas-datareader tables scikit-learn scikit-image snakeviz ujson s3fs fastparquet dask-ml cachey graphviz partd torch seaborn livelossplot torchvision pycm
+python3 -m pip install wheel
+python3 -m pip install ipykernel notebook ipywidgets mpltools nbformat nbconvert ipyparallel okpy toolz bokeh dask distributed pandas pandas-datareader tables scikit-learn scikit-image snakeviz ujson s3fs fastparquet dask-ml cachey graphviz partd torch seaborn livelossplot torchvision pycm
 
-docker gpg key and repository
+# Add docker gpg key and repository
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
 add-apt-repository -y \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
@@ -38,8 +39,6 @@ apt-get -y install docker-ce docker-ce-cli containerd.io
 # Install azcli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
-# Install some other useful packages
-apt -y install curl openssl jq emacs wajig texlive-latex-extra nodejs npm openjdk-11-jdk golang libglu1-mesa
 
 # Install kubectl and helm
 sudo apt-get update &&  sudo apt-get install -y apt-transport-https
@@ -53,4 +52,5 @@ pushd /usr/local
 curl -sL http://gmsh.info/bin/Linux/gmsh-4.4.1-Linux64.tgz | tar --strip-components 1 -zxvf -
 popd
 
-
+rm -rf ~/.cache
+rm -rf /var/lib/apt/lists/*
