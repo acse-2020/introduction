@@ -65,13 +65,8 @@ which should return a line similar to:
 
 Windows users are recommended to [install Docker using the WSL2 backend](https://docs.docker.com/docker-for-windows/wsl/), noting the prerequisites detailed on that page (Windows10 19.03 or later, WSL2 , linux kernel upgrade applied).
 
-If virtualization has been disabled in your computer's BIOS, you may need to [re-enable it](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html). This may require rebooting your computer.
+If virtualization has been disabled in your computer's BIOS, you may need to [re-enable it](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html). This may require rebooting your computer. If you are running on a cloud system which is itself virtualised, make sure you are using an instance with 'nested virtualisation' enabled.
 
-## Git (on Windows)
-
-Git is a version control software that will be widely used throughout the course. 
-The windows version can be downloaded and installed from [here](https://git-scm.com/download/win). 
-If asked for a default text editor and you know none of the options, choose `nano`. Mac OS and Linux machines will typically have `git` preinstalled.
 
 ## SSH (on Windows)
 
@@ -86,4 +81,11 @@ This lightweight, open source code editor from Microsoft is available [here](htt
 
 Before install Visual Studio Code on Windows, it is highly recommended to have set up WSL2, Ubuntu, and Docker Desktop. If you have completed these steps, Visual Studio Code will automatically prompt you to use WSL2 as a back-end for development during the install process. You should also be prompted to install the WSL2 backend extension after Visual Studio Code runs for the first time. If you already have Visual Studio Code installed, you should [refer to the WSL2 extension documentation here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
-## Visual Studio (on Windows)
+## Git (on Windows)
+
+Git is a version control software that will be widely used throughout the course. The windows version can be downloaded and installed from [here](https://git-scm.com/download/win). 
+
+Git requires a text editor to be selected at runtime. It is recommended that you already have Visual Studio Code installed and choose this as the default editor. Otherwise, if you are asked for a default text editor and you know none of the options, choose `nano`. 
+
+Mac OS and Linux machines will typically have `git` preinstalled.
+

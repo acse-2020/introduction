@@ -265,11 +265,6 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#git-on-windows">
-   Git (on Windows)
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#ssh-on-windows">
    SSH (on Windows)
   </a>
@@ -280,8 +275,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#visual-studio-on-windows">
-   Visual Studio (on Windows)
+  <a class="reference internal nav-link" href="#git-on-windows">
+   Git (on Windows)
   </a>
  </li>
 </ul>
@@ -351,13 +346,7 @@ or <a class="reference external" href="https://www.mozilla.org/en-GB/firefox/new
 <h2>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://www.docker.com/products/docker-desktop">Docker</a> is containerization software that we will use to distribute some codes that do not natively run on Windows or Macs.</p>
 <p>Windows users are recommended to <a class="reference external" href="https://docs.docker.com/docker-for-windows/wsl/">install Docker using the WSL2 backend</a>, noting the prerequisites detailed on that page (Windows10 19.03 or later, WSL2 , linux kernel upgrade applied).</p>
-<p>If virtualization has been disabled in your computer’s BIOS, you may need to <a class="reference external" href="https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html">re-enable it</a>. This may require rebooting your computer.</p>
-</div>
-<div class="section" id="git-on-windows">
-<h2>Git (on Windows)<a class="headerlink" href="#git-on-windows" title="Permalink to this headline">¶</a></h2>
-<p>Git is a version control software that will be widely used throughout the course.
-The windows version can be downloaded and installed from <a class="reference external" href="https://git-scm.com/download/win">here</a>.
-If asked for a default text editor and you know none of the options, choose <code class="docutils literal notranslate"><span class="pre">nano</span></code>. Mac OS and Linux machines will typically have <code class="docutils literal notranslate"><span class="pre">git</span></code> preinstalled.</p>
+<p>If virtualization has been disabled in your computer’s BIOS, you may need to <a class="reference external" href="https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html">re-enable it</a>. This may require rebooting your computer. If you are running on a cloud system which is itself virtualised, make sure you are using an instance with ‘nested virtualisation’ enabled.</p>
 </div>
 <div class="section" id="ssh-on-windows">
 <h2>SSH (on Windows)<a class="headerlink" href="#ssh-on-windows" title="Permalink to this headline">¶</a></h2>
@@ -373,8 +362,11 @@ Mac OS and Linux machines will typically have <code class="docutils literal notr
 <p>This lightweight, open source code editor from Microsoft is available <a class="reference external" href="https://code.visualstudio.com/">here</a>. It offers an extensible interface supporting multiple languages and many heavy duty IDE-like features, supported by a wide community. This will be the primary tool used in the course to write standalone Python programs and modules.</p>
 <p>Before install Visual Studio Code on Windows, it is highly recommended to have set up WSL2, Ubuntu, and Docker Desktop. If you have completed these steps, Visual Studio Code will automatically prompt you to use WSL2 as a back-end for development during the install process. You should also be prompted to install the WSL2 backend extension after Visual Studio Code runs for the first time. If you already have Visual Studio Code installed, you should <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">refer to the WSL2 extension documentation here</a>.</p>
 </div>
-<div class="section" id="visual-studio-on-windows">
-<h2>Visual Studio (on Windows)<a class="headerlink" href="#visual-studio-on-windows" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="git-on-windows">
+<h2>Git (on Windows)<a class="headerlink" href="#git-on-windows" title="Permalink to this headline">¶</a></h2>
+<p>Git is a version control software that will be widely used throughout the course. The windows version can be downloaded and installed from <a class="reference external" href="https://git-scm.com/download/win">here</a>.</p>
+<p>Git requires a text editor to be selected at runtime. It is recommended that you already have Visual Studio Code installed and choose this as the default editor. Otherwise, if you are asked for a default text editor and you know none of the options, choose <code class="docutils literal notranslate"><span class="pre">nano</span></code>.</p>
+<p>Mac OS and Linux machines will typically have <code class="docutils literal notranslate"><span class="pre">git</span></code> preinstalled.</p>
 </div>
 </div>
 
