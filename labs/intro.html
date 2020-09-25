@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Example notebook &#8212; ACSE 2020 Introductory Material</title>
+    <title>Azure Labs &#8212; ACSE 2020 Introductory Material</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
@@ -35,8 +35,6 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Git &amp; Github" href="../git/intro.html" />
-    <link rel="prev" title="Jupyter Notebooks" href="intro.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -115,23 +113,16 @@
   Course Primer
  </span>
 </p>
-<ul class="current nav sidenav_l1">
+<ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../command_lines/intro.html">
    Command Line Interfaces
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="reference internal" href="intro.html">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../jupyter/intro.html">
    Jupyter Notebooks
   </a>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     Example notebook
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../git/intro.html">
@@ -202,9 +193,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/jupyter/example_notebook.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/labs/intro.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.ipynb</button></a>
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -222,7 +213,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/acse-2020/introduction/issues/new?title=Issue%20on%20page%20%2Fjupyter/example_notebook.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/acse-2020/introduction/issues/new?title=Issue%20on%20page%20%2Flabs/intro.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -237,23 +228,6 @@
 
         <!-- Launch buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
-    <div class="dropdown-buttons">
-        
-        <a class="binder-button" href="https://mybinder.org/v2/gh/acse-2020/introduction/master?urlpath=tree/jupyter/example_notebook.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
-                data-placement="left"><img class="binder-button-logo"
-                    src="../_static/images/logo_binder.svg"
-                    alt="Interact on binder">Binder</button></a>
-        
-        
-        
-        
-    </div>
-</div>
-
     </div>
 
     <!-- Table of contents -->
@@ -262,7 +236,68 @@
             <i class="fas fa-list"></i> Contents
         </div>
         <nav id="bd-toc-nav">
-            
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-is-the-azure-labs-service">
+     What is the Azure Labs service?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-is-azure-labs-used-on-the-acse-course">
+     How is Azure labs used on the ACSE course?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#when-and-why-should-you-use-azure-labs">
+   When and why should you use Azure Labs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#time-limits-on-labs-use">
+   Time limits on Labs use
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#registering-for-a-lab">
+   Registering for a lab
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#connecting-to-a-virtual-machine">
+   Connecting to a virtual machine
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#setting-a-password">
+     Setting a password
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#connecting-using-remote-desktop-protocol">
+     Connecting using Remote Desktop Protocol
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#setting-up-teams-and-onedrive">
+     Setting up Teams and OneDrive
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#shutting-down-a-virtual-machine">
+   Shutting down a virtual machine
+  </a>
+ </li>
+</ul>
+
         </nav>
     </div>
 </div>
@@ -271,53 +306,42 @@
         
               <div>
                 
-  <div class="section" id="example-notebook">
-<h1>Example notebook<a class="headerlink" href="#example-notebook" title="Permalink to this headline">¶</a></h1>
-<p>This is an example of the content available in a Jupyter notebook. It contains both “Markdown” cells (containing formated text and images) and code cells (in this case Python3 code).</p>
-<p>Live code can be interacted with in a number of ways. Those reading on the Jupyter Book at <a class="reference external" href="https://acse-2020.github.io/introduction">https://acse-2020.github.io/introduction</a> can start an in-page interactive session by clicking the following button:</p>
-<button title="Run code" class="thebelab-button thebe-launch-button"onclick="initThebe()">Run code</button><div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># This is a code cell</span>
-<span class="c1"># Click the button above, once it reads &quot;Launching from mybinder.org; ready&quot;</span>
-<span class="c1"># the code here can be editted and re-run</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="mi">7</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">z</span> <span class="o">=</span> <span class="n">x</span><span class="o">+</span><span class="n">y</span>
-<span class="n">z</span> <span class="o">*=</span> <span class="mi">2</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
+  <div class="section" id="azure-labs">
+<h1>Azure Labs<a class="headerlink" href="#azure-labs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-is-the-azure-labs-service">
+<h3>What is the Azure Labs service?<a class="headerlink" href="#what-is-the-azure-labs-service" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://labs.azure.com/">Azure Labs</a></p>
+</div>
+<div class="section" id="how-is-azure-labs-used-on-the-acse-course">
+<h3>How is Azure labs used on the ACSE course?<a class="headerlink" href="#how-is-azure-labs-used-on-the-acse-course" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>7
-</pre></div>
+<div class="section" id="when-and-why-should-you-use-azure-labs">
+<h2>When and why should you use Azure Labs<a class="headerlink" href="#when-and-why-should-you-use-azure-labs" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="time-limits-on-labs-use">
+<h2>Time limits on Labs use<a class="headerlink" href="#time-limits-on-labs-use" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="registering-for-a-lab">
+<h2>Registering for a lab<a class="headerlink" href="#registering-for-a-lab" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="connecting-to-a-virtual-machine">
+<h2>Connecting to a virtual machine<a class="headerlink" href="#connecting-to-a-virtual-machine" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setting-a-password">
+<h3>Setting a password<a class="headerlink" href="#setting-a-password" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="connecting-using-remote-desktop-protocol">
+<h3>Connecting using Remote Desktop Protocol<a class="headerlink" href="#connecting-using-remote-desktop-protocol" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="setting-up-teams-and-onedrive">
+<h3>Setting up Teams and OneDrive<a class="headerlink" href="#setting-up-teams-and-onedrive" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
+<div class="section" id="shutting-down-a-virtual-machine">
+<h2>Shutting down a virtual machine<a class="headerlink" href="#shutting-down-a-virtual-machine" title="Permalink to this headline">¶</a></h2>
 </div>
-<p>Code cells can contain any valid python statement, including the <code class="docutils literal notranslate"><span class="pre">import</span></code> command. Through IPython “magic” commands, they can even include graphics from the <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> package.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7efdbd538b10&gt;]
-</pre></div>
-</div>
-<img alt="../_images/example_notebook_3_1.png" src="../_images/example_notebook_3_1.png" />
-</div>
-</div>
-<p>The entire GitHub repository serving these pages can be served on a free community servive, <a class="reference external" href="https://mybinder.org">https://mybinder.org</a> by clicking the <i class="fas fa-rocket"></i> icon above and selcting “Binder”. This provides the classic Jupyter notebook interface.</p>
-<p>Future ACSE students will be able to connect to a dedicated course Jupyterhub instance once they have created a correctly named GitHub account, as described elsewhere on this site.</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -333,7 +357,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./jupyter"
+            path: "./labs"
         },
         predefinedOutput: true
     }
@@ -348,8 +372,6 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Jupyter Notebooks</a>
-    <a class='right-next' id="next-link" href="../git/intro.html" title="next page">Git &amp; Github</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
