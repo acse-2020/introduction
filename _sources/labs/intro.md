@@ -28,14 +28,32 @@ Even if you intend to primarily use your local computer for course work, it is r
 
 ## Registering for a lab
 
+Before each module or miniproject, you will receive an invitiation to the associated Azure Lab, sent to your Imperial College email address. This will provide you with a link to follow, which may require you to authenticate with Azure using your Imperial College user account if your browser does not already have a saved authentication session.
+
 ## Connecting to a virtual machine
+
+You can see all live labs in which you have an allocated virtual machine by going to the [Azure Labs Virtual Machines](https://labs.azure.com/virtualmachines/) page, which will require you to be logged in to Azure using your Imperial College Account.
 
 ### Setting a password
 
+Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, click on the 'connect' button on the [Virtual Machines](https://labs.azure.com/virtualmachines/) landing page, enter a new password when prompted, and then wait whilst the password is reset. While the password is being reset you will not be able to click on the connect button; when you can, the new password should be available to use.
+
 ### Connecting using Remote Desktop Protocol
+
+Clicking on the connect button on the [Virtual Machines](https://labs.azure.com/virtualmachines/) landing page will provide you with a Remote Desktop Protocol (RDP) configuration file. Most modern operating systems will be preconfigured with a client to open this configuration file, but if you do not have one, the [Microsoft Remote Desktop client](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients} is available for Windows and Mac OS X, and [Remmina](https://remmina.org/how-to-install-remmina/) is available pre-packaged for most Linux distributions.
+
+If the configuration file does not automatically supply a username, the default username for all course Labs machiens is 'acse'. Use the password you set in the previous step.
+
+You may be prompted to trust the virtual machine you are connecting to; this is a required step, so unless you have specific security concerns during the connection process you will need to 'OK' all trust dialogues.
 
 ### Setting up Teams and OneDrive
 
-## Shutting down a virtual machine
+Once you have connected to your Labs virtual machine, you will be prompted to connect to Teams, for which you should use your Imperial College username and password to authenticate. Some systems may not support audio output from the remote Teams client, and most will not support audio (microphone) input, so this is mostly provided to allow you to participate in chat and file exchange via teams. It is assumed that you will have a local Teams client for live streaming course presentations.
 
+You are strongly encouraged to connect your Virtual Machine to your Imperial College OneDrive account, both to store older data and free up space on the virtual machine, and also to store any data that you want to retain at the end of each course module or miniproject. **Note that at the end of each module or miniproject lab, virtual machines are reset and all user data is removed**.
 
+To connect your virtual machine to OneDrive, click on the OneDrive icon in the system tray at the lower right hand corner of your virtual machine session, and enter your Imperial College username and password when prompted.
+
+## Stopping a virtual machine
+
+You will be allocated a set number of hours use of your virtual machine in Labs for each module or miniproject during the ACSE course. This is intended to cover your active use of the Labs virtual machine, but it is important that you ensure your virtual machine is stopped when you are no longer using it. If you do not do this, it will continue to run and use up your allocated hours. To ensure a clean and successful shutdown, it is recommended that you shut down the Windows operating system that your virtual machine is running from inside the virtual machine, and then go back to the [Virtual Machines](https://labs.azure.com/virtualmachines/) landing page and use the switch available there to ensure your virtual machine has stopped.
