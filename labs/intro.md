@@ -8,7 +8,7 @@
 
 Students access the Labs servicing using Remote Dekstop, giving access to the Labs virtual machine either in the form of a windowed application or as a full-screen overlay to give the experience of directly working on the Labs system.
 
-Each module and miniproject in the ACSE course will have an associated Azure Lab, and will be sent an invitation by email before the first session. **The virtual machines allocated to students will be reset (user data NOT retained) between modules**, so it is important that any data students want to retain at the end of each module is securely stored outside the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive for this purpose.
+Each module and miniproject in the ACSE course will have an associated Azure Lab running Windows 10 with all the software specified on [the software introduction page](../software/intro.md), and will be sent an invitation by email before the first session. **The virtual machines allocated to students will be reset (user data NOT retained) between modules**, so it is important that any data students want to retain at the end of each module is securely stored outside the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive for this purpose.
 
 ## Time and resource limits of Labs use
 
