@@ -327,30 +327,46 @@
 <div class="section" id="registering-for-a-lab">
 <h2>Registering for a lab<a class="headerlink" href="#registering-for-a-lab" title="Permalink to this headline">¶</a></h2>
 <p>Before each module or miniproject, you will receive an invitiation to the associated Azure Lab, sent to your Imperial College email address. This will provide you with a link to follow, which may require you to authenticate with Azure using your Imperial College user account if your browser does not already have a saved authentication session.</p>
+<p><img alt="" src="labs/../RegistrationMail.png" /></p>
 </div>
 <div class="section" id="connecting-to-a-virtual-machine">
 <h2>Connecting to a virtual machine<a class="headerlink" href="#connecting-to-a-virtual-machine" title="Permalink to this headline">¶</a></h2>
-<p>You can see all live labs in which you have an allocated virtual machine by going to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Azure Labs Virtual Machines</a> page, which will require you to be logged in to Azure using your Imperial College Account.</p>
+<p>You can see all live labs in which you have an allocated virtual machine by going to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Azure Labs Virtual Machines</a> page, which will require you to be logged in to Azure using your Imperial College Account. For each lab you are registered with you will see a tile allowing you to manage the virtual machine associated with that lab.</p>
+<p>Before connecting to a virtual machine or resetting its password, you need to start the virtual machine using the switch at the lower left corner of the virtual machine pane.</p>
+<p><img alt="" src="labs/../StartSwitch.png" /></p>
+<p>The virtual machine tile should now show that the virtual machine is starting.</p>
+<p><img alt="" src="labs/../Starting.png" /></p>
+<p>Once the start up process is complete, the tile should show you that the virtual machine is running.</p>
+<p><img alt="" src="labs/../Running.png" /></p>
 <div class="section" id="setting-a-password">
 <h3>Setting a password<a class="headerlink" href="#setting-a-password" title="Permalink to this headline">¶</a></h3>
-<p>Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, click on the ‘connect’ button on the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines</a> landing page, enter a new password when prompted, and then wait whilst the password is reset. While the password is being reset you will not be able to click on the connect button; when you can, the new password should be available to use.</p>
+<p>Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, go to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines landing page</a> and click on the connect button:</p>
+<p><img alt="" src="labs/../ConnectButton.png" /></p>
+<p>Enter a new password when prompted, and then wait whilst the password is reset.</p>
+<p><img alt="" src="labs/../ResetPassword.png" /></p>
+<p>While the password is being reset you will not be able to click on the connect button and you should see a notification that the password is being reset. Once the password reset process is complete the connect button will be activated again, and the new password should be available to use.</p>
 </div>
 <div class="section" id="connecting-using-remote-desktop-protocol">
 <h3>Connecting using Remote Desktop Protocol<a class="headerlink" href="#connecting-using-remote-desktop-protocol" title="Permalink to this headline">¶</a></h3>
-<p>Clicking on the connect button on the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines</a> landing page will provide you with a Remote Desktop Protocol (RDP) configuration file. Most modern operating systems will be preconfigured with a client to open this configuration file, but if you do not have one, the [Microsoft Remote Desktop client](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients} is available for Windows and Mac OS X, and <a class="reference external" href="https://remmina.org/how-to-install-remmina/">Remmina</a> is available pre-packaged for most Linux distributions.</p>
-<p>If the configuration file does not automatically supply a username, the default username for all course Labs machiens is ‘acse’. Use the password you set in the previous step.</p>
-<p>You may be prompted to trust the virtual machine you are connecting to; this is a required step, so unless you have specific security concerns during the connection process you will need to ‘OK’ all trust dialogues.</p>
+<p>Clicking on the connect button on the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines</a> landing page:</p>
+<p><img alt="" src="labs/../ConnectButton.png" /></p>
+<p>will provide you with a Remote Desktop Protocol (RDP) configuration file. Most modern operating systems will be preconfigured with a client to open this configuration file, but if you do not have one, the [Microsoft Remote Desktop client](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients} is available for Windows and Mac OS X, and <a class="reference external" href="https://remmina.org/how-to-install-remmina/">Remmina</a> is available pre-packaged for most Linux distributions.</p>
+<p>If the configuration file does not automatically supply a username, the default username for all course Labs machiens is ‘acse’.  Use the password you set in the previous step.</p>
+<p>You may be prompted to trust the virtual machine you are connecting to, including accepting a certificate; this is a required step, so unless you have specific security concerns during the connection process you will need to ‘OK’ all trust dialogues.</p>
 </div>
 <div class="section" id="setting-up-teams-and-onedrive">
 <h3>Setting up Teams and OneDrive<a class="headerlink" href="#setting-up-teams-and-onedrive" title="Permalink to this headline">¶</a></h3>
 <p>Once you have connected to your Labs virtual machine, you will be prompted to connect to Teams, for which you should use your Imperial College username and password to authenticate. Some systems may not support audio output from the remote Teams client, and most will not support audio (microphone) input, so this is mostly provided to allow you to participate in chat and file exchange via teams. It is assumed that you will have a local Teams client for live streaming course presentations.</p>
 <p>You are strongly encouraged to connect your Virtual Machine to your Imperial College OneDrive account, both to store older data and free up space on the virtual machine, and also to store any data that you want to retain at the end of each course module or miniproject. <strong>Note that at the end of each module or miniproject lab, virtual machines are reset and all user data is removed</strong>.</p>
-<p>To connect your virtual machine to OneDrive, click on the OneDrive icon in the system tray at the lower right hand corner of your virtual machine session, and enter your Imperial College username and password when prompted.</p>
+<p>To connect your virtual machine to OneDrive, click on the OneDrive icon in the system tray at the lower right hand corner of your virtual machine session, and enter your Imperial College username and password when prompted. If the OneDrive icon is not present, you may need to run the OneDrive app from the</p>
 </div>
 </div>
 <div class="section" id="stopping-a-virtual-machine">
 <h2>Stopping a virtual machine<a class="headerlink" href="#stopping-a-virtual-machine" title="Permalink to this headline">¶</a></h2>
-<p>You will be allocated a set number of hours use of your virtual machine in Labs for each module or miniproject during the ACSE course. This is intended to cover your active use of the Labs virtual machine, but it is important that you ensure your virtual machine is stopped when you are no longer using it. If you do not do this, it will continue to run and use up your allocated hours. To ensure a clean and successful shutdown, it is recommended that you shut down the Windows operating system that your virtual machine is running from inside the virtual machine, and then go back to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines</a> landing page and use the switch available there to ensure your virtual machine has stopped.</p>
+<p>You will be allocated a set number of hours use of your virtual machine in Labs for each module or miniproject during the ACSE course. This is intended to cover your active use of the Labs virtual machine, but it is important that you ensure your virtual machine is stopped when you are no longer using it. If you do not do this, it will continue to run and use up your allocated hours. To ensure a clean and successful shutdown, it is recommended that you shut down the Windows operating system that your virtual machine is running from inside the virtual machine, and then go back to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines</a> landing page and use the switch available there to ensure your virtual machine has stopped. This is the same switch you used to start your virtual machine, and should go from a running state:</p>
+<p><img alt="" src="labs/../Running.png" /></p>
+<p>through a ‘stopping’ state to a stopped state:</p>
+<p><img alt="" src="labs/../StartSwitch.png" /></p>
 </div>
 </div>
 
