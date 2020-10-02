@@ -1,7 +1,7 @@
 - title: Welcome to ACSE
   file: home.md
-- title: ACSE Code of Conduct
-  file: code_of_conduct.md
+#- title: ACSE Code of Conduct
+#  file: code_of_conduct.md
 - title: Computing Equipment
   file: computer_spec.md
 
