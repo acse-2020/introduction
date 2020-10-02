@@ -47,4 +47,4 @@ Examples of such costs include purchase or upgrade of computer equipment or rela
 
 The fund is intended to support requests up to £300, but requests for more than £300 will be considered in exceptional circumstances. Any items purchased after 1st June 2020 are eligible. All applications must be accompanied by a scan or digital copy of the original receipt. 
 
-For full details of how to apply please see [here](https://imperial.eu.qualtrics.com/jfe/form/SV_9H7sFjgt18NFC6N)
+For full details of how to apply please see [here](https://imperial.eu.qualtrics.com/jfe/form/SV_9H7sFjgt18NFC6N).
