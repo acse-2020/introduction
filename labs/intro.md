@@ -6,17 +6,17 @@
 
 [Azure Labs](https://labs.azure.com/) is a Microsoft cloud service which provides a virtual computer laboratory in which virtual machines are available to students at any time and from any location. The virtual machines are created from a template which is configured with all the software needed for a particular class or workshop session, and allows students to work independently of the physical computer they're accessing Labs from, avoiding problems with local software being misconfigured or absent.
 
-Students access the Labs servicing using Remote Dekstop, giving access to the Labs virtual machine either in the form of a windowed application or as a full-screen overlay to give the experience of directly working on the Labs system.
+Students access their assigned virtual machine using Remote Dekstop, giving access either in the form of a windowed application or as a full-screen overlay to give the experience of directly working on the Labs system.
 
-Each module and miniproject in the ACSE course will have an associated Azure Lab running Windows 10 with all the software specified on [the software introduction page](../software/intro.md), and will be sent an invitation by email before the first session. **The virtual machines allocated to students will be reset (user data NOT retained) between modules**, so it is important that any data students want to retain at the end of each module is securely stored outside the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive for this purpose.
+Each module and miniproject in the ACSE course will have an associated Azure Lab running Windows 10 with all the software specified on [the software introduction page](../software/intro.md). Invitations to register for each lab will be sent out before the first session. **The virtual machines allocated to students will be reset (user data NOT retained) between modules**, so it is important that any data students want to retain at the end of each module is securely stored outside the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive which can be used for this purpose.
 
 ## Time and resource limits of Labs use
 
-Virtual Machines provided by Azure Labs need to be started when they are required, and stopped when they are not being used. Students are allocated a set number of running hours when they are invited to a Lab, and are responsible for starting and stopping their virtual machine at the start and end of their work. This is a best-practise habit which is applicable to cloud use in general, in order to minimise running costs.
+Virtual Machines provided by Azure Labs need to be started when they are required, and stopped when they are not being used. Students are allocated a set number of running hours when they are invited to a Lab, and are responsible for starting and stopping their virtual machine at the start and end of their work. This is a best-practise habit which is applicable to cloud use in general, and students are encouraged to adopt it in order to minimise running costs.
 
 The allocated time should be sufficient to carry out all the work associated with the module or miniproject, but in exceptional cases extra time may be allocated at a tutor's discretion.
 
-Each virtual machine will typically have four cores, 16GB RAM, and 30GB local storage attached to it for the student's sole use. When working with larger datasets students should be aware of memory and storage limits in particular, and be responsible for monitoring their data and running processes. In particular, any data that needs to be retained after the end of a module or miniproject should be stored in the cloud, off the virtual machine, preferably in the student's Imperial College OneDrive. 
+Each virtual machine will typically have four cores, 16GB RAM, and 30GB local storage attached to it for the student's sole use. When working with larger datasets students should be aware of memory and storage limits, and may find they need to remove very large files between exercises to release storage capacity. It is reiterated that any data which needs to be retained after the end of a module or miniproject should be stored in the cloud, off the virtual machine, preferably in the student's Imperial College OneDrive. 
 
 ## When and why should you use Azure Labs
 
@@ -32,11 +32,23 @@ Before each module or miniproject, you will receive an invitiation to the associ
 
 ![](RegistrationMail.png)
 
-## Connecting to a virtual machine
+### Setting a password
 
 You can see all live labs in which you have an allocated virtual machine by going to the [Azure Labs Virtual Machines](https://labs.azure.com/virtualmachines/) page, which will require you to be logged in to Azure using your Imperial College Account. For each lab you are registered with you will see a tile allowing you to manage the virtual machine associated with that lab.
 
-Before connecting to a virtual machine or resetting its password, you need to start the virtual machine using the switch at the lower left corner of the virtual machine pane.
+Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, go to the [Virtual Machines landing page](https://labs.azure.com/virtualmachines/) and click on the actions button:
+
+![](ActionsButton.png)
+
+Enter a new password when prompted, and then wait whilst the password is reset. 
+
+![](ResetPassword.png)
+
+While the password is being reset you will not be able to click on the connect button and you should see a notification that the password is being reset. Once the password reset process is complete the connect button will be activated again, and the new password should be available to use.
+
+## Connecting to a virtual machine
+
+Before connecting to a virtual machine you need to start the virtual machine using the switch at the lower left corner of the virtual machine pane.
 
 ![](StartSwitch.png)
 
@@ -47,18 +59,6 @@ The virtual machine tile should now show that the virtual machine is starting.
 Once the start up process is complete, the tile should show you that the virtual machine is running.
 
 ![](Running.png)
-
-### Setting a password
-
-Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, go to the [Virtual Machines landing page](https://labs.azure.com/virtualmachines/) and click on the connect button:
-
-![](ConnectButton.png)
-
-Enter a new password when prompted, and then wait whilst the password is reset. 
-
-![](ResetPassword.png)
-
-While the password is being reset you will not be able to click on the connect button and you should see a notification that the password is being reset. Once the password reset process is complete the connect button will be activated again, and the new password should be available to use.
 
 ### Connecting using Remote Desktop Protocol
 
