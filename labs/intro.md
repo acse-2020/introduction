@@ -44,7 +44,7 @@ then select 'reset password' from the actions menu. Enter a new password when pr
 
 ![](ResetPassword.png)
 
-While the password is being reset you will not be able to click on the connect button and you should see a notification that the password is being reset. Once the password reset process is complete the connect button will be activated again, and the new password should be available to use.
+While the password is being reset you will not be able to start or connect to your virtual machine, and you should see a notification that the password is being reset. Wait for this notification to clear before starting and connecting to your virtual machine.
 
 ## Connecting to a virtual machine
 
