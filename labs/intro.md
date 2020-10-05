@@ -36,7 +36,7 @@ Before each module or miniproject, you will receive an invitiation to the associ
 
 You can see all live labs in which you have an allocated virtual machine by going to the [Azure Labs Virtual Machines](https://labs.azure.com/virtualmachines/) page, which will require you to be logged in to Azure using your Imperial College Account. For each lab you are registered with you will see a tile allowing you to manage the virtual machine associated with that lab.
 
-Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, go to the [Virtual Machines landing page](https://labs.azure.com/virtualmachines/) and click on the actions button:
+Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, go to the [Virtual Machines landing page](https://labs.azure.com/virtualmachines/) and click on the actions button for your virtual machine:
 
 ![](ActionsButton.png)
 
