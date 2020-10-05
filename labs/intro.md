@@ -4,11 +4,11 @@
 
 ### What is the Azure Labs service?
 
-[Azure Labs](https://labs.azure.com/) is a Microsoft cloud service which provides a virtual computer laboratory in which virtual machines are available to students at any time and from any location. The virtual machines are created from a template which is configured with all the software needed for a particular class or workshop session, and allows students to work independently of the physical computer they're accessing Labs from, avoiding problems with local software being misconfigured or absent.
+[Azure Labs](https://labs.azure.com/) is a Microsoft cloud service which provides a virtual computer laboratory in which virtual machines are available to students at any time and from any location. The virtual machines for ACSE are created from a template which is configured with Windows 10, preinstalled with a full suite of [the required course software](../software/intro.md), and allows students to work independently of the physical computer they're accessing Labs from. This avoids problems with software on the local system being misconfigured or absent.
 
-Students access their assigned virtual machine using Remote Dekstop, giving access either in the form of a windowed application or as a full-screen overlay to give the experience of directly working on the Labs system.
+Students access their assigned virtual machine using Remote Dekstop, giving access either in the form of a windowed application or as a full-screen overlay to give the experience of working on the Labs system as if it were local to the user.
 
-Each module and miniproject in the ACSE course will have an associated Azure Lab running Windows 10 with all the software specified on [the software introduction page](../software/intro.md). Invitations to register for each lab will be sent out before the first session. **The virtual machines allocated to students will be reset (user data NOT retained) between modules**, so it is important that any data students want to retain at the end of each module is securely stored outside the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive which can be used for this purpose.
+Each module and miniproject in the ACSE course will have an associated Azure Lab, which students will be invited to register for by email prior to the module or miniproject commencing. **The virtual machines allocated to students will be reset between modules, removing all user data**, so it is critical that any data students wish to retain is transferred off the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive which can be used for this purpose. 
 
 ## Time and resource limits of Labs use
 
