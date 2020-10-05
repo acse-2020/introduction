@@ -277,17 +277,19 @@
   <a class="reference internal nav-link" href="#registering-for-a-lab">
    Registering for a lab
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#connecting-to-a-virtual-machine">
-   Connecting to a virtual machine
-  </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#setting-a-password">
      Setting a password
     </a>
    </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#connecting-to-a-virtual-machine">
+   Connecting to a virtual machine
+  </a>
+  <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#connecting-using-remote-desktop-protocol">
      Connecting using Remote Desktop Protocol
@@ -323,15 +325,15 @@
 <div class="section" id="what-is-the-azure-labs-service">
 <h3>What is the Azure Labs service?<a class="headerlink" href="#what-is-the-azure-labs-service" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference external" href="https://labs.azure.com/">Azure Labs</a> is a Microsoft cloud service which provides a virtual computer laboratory in which virtual machines are available to students at any time and from any location. The virtual machines are created from a template which is configured with all the software needed for a particular class or workshop session, and allows students to work independently of the physical computer they’re accessing Labs from, avoiding problems with local software being misconfigured or absent.</p>
-<p>Students access the Labs servicing using Remote Dekstop, giving access to the Labs virtual machine either in the form of a windowed application or as a full-screen overlay to give the experience of directly working on the Labs system.</p>
-<p>Each module and miniproject in the ACSE course will have an associated Azure Lab running Windows 10 with all the software specified on <a class="reference internal" href="../software/intro.html"><span class="doc std std-doc">the software introduction page</span></a>, and will be sent an invitation by email before the first session. <strong>The virtual machines allocated to students will be reset (user data NOT retained) between modules</strong>, so it is important that any data students want to retain at the end of each module is securely stored outside the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive for this purpose.</p>
+<p>Students access their assigned virtual machine using Remote Dekstop, giving access either in the form of a windowed application or as a full-screen overlay to give the experience of directly working on the Labs system.</p>
+<p>Each module and miniproject in the ACSE course will have an associated Azure Lab running Windows 10 with all the software specified on <a class="reference internal" href="../software/intro.html"><span class="doc std std-doc">the software introduction page</span></a>. Invitations to register for each lab will be sent out before the first session. <strong>The virtual machines allocated to students will be reset (user data NOT retained) between modules</strong>, so it is important that any data students want to retain at the end of each module is securely stored outside the virtual machine. OneDrive is recommended as an easy way to do this, and all Imperial College users will get an Imperial One Drive which can be used for this purpose.</p>
 </div>
 </div>
 <div class="section" id="time-and-resource-limits-of-labs-use">
 <h2>Time and resource limits of Labs use<a class="headerlink" href="#time-and-resource-limits-of-labs-use" title="Permalink to this headline">¶</a></h2>
-<p>Virtual Machines provided by Azure Labs need to be started when they are required, and stopped when they are not being used. Students are allocated a set number of running hours when they are invited to a Lab, and are responsible for starting and stopping their virtual machine at the start and end of their work. This is a best-practise habit which is applicable to cloud use in general, in order to minimise running costs.</p>
+<p>Virtual Machines provided by Azure Labs need to be started when they are required, and stopped when they are not being used. Students are allocated a set number of running hours when they are invited to a Lab, and are responsible for starting and stopping their virtual machine at the start and end of their work. This is a best-practise habit which is applicable to cloud use in general, and students are encouraged to adopt it in order to minimise running costs.</p>
 <p>The allocated time should be sufficient to carry out all the work associated with the module or miniproject, but in exceptional cases extra time may be allocated at a tutor’s discretion.</p>
-<p>Each virtual machine will typically have four cores, 16GB RAM, and 30GB local storage attached to it for the student’s sole use. When working with larger datasets students should be aware of memory and storage limits in particular, and be responsible for monitoring their data and running processes. In particular, any data that needs to be retained after the end of a module or miniproject should be stored in the cloud, off the virtual machine, preferably in the student’s Imperial College OneDrive.</p>
+<p>Each virtual machine will typically have four cores, 16GB RAM, and 30GB local storage attached to it for the student’s sole use. When working with larger datasets students should be aware of memory and storage limits, and may find they need to remove very large files between exercises to release storage capacity. It is reiterated that any data which needs to be retained after the end of a module or miniproject should be stored in the cloud, off the virtual machine, preferably in the student’s Imperial College OneDrive.</p>
 </div>
 <div class="section" id="when-and-why-should-you-use-azure-labs">
 <h2>When and why should you use Azure Labs<a class="headerlink" href="#when-and-why-should-you-use-azure-labs" title="Permalink to this headline">¶</a></h2>
@@ -343,24 +345,24 @@
 <h2>Registering for a lab<a class="headerlink" href="#registering-for-a-lab" title="Permalink to this headline">¶</a></h2>
 <p>Before each module or miniproject, you will receive an invitiation to the associated Azure Lab, sent to your Imperial College email address. This will provide you with a link to follow, which may require you to authenticate with Azure using your Imperial College user account if your browser does not already have a saved authentication session.</p>
 <p><img alt="" src="../_images/RegistrationMail.png" /></p>
+<div class="section" id="setting-a-password">
+<h3>Setting a password<a class="headerlink" href="#setting-a-password" title="Permalink to this headline">¶</a></h3>
+<p>You can see all live labs in which you have an allocated virtual machine by going to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Azure Labs Virtual Machines</a> page, which will require you to be logged in to Azure using your Imperial College Account. For each lab you are registered with you will see a tile allowing you to manage the virtual machine associated with that lab.</p>
+<p>Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, go to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines landing page</a> and click on the actions button:</p>
+<p><img alt="" src="../_images/ActionsButton.png" /></p>
+<p>Enter a new password when prompted, and then wait whilst the password is reset.</p>
+<p><img alt="" src="../_images/ResetPassword.png" /></p>
+<p>While the password is being reset you will not be able to click on the connect button and you should see a notification that the password is being reset. Once the password reset process is complete the connect button will be activated again, and the new password should be available to use.</p>
+</div>
 </div>
 <div class="section" id="connecting-to-a-virtual-machine">
 <h2>Connecting to a virtual machine<a class="headerlink" href="#connecting-to-a-virtual-machine" title="Permalink to this headline">¶</a></h2>
-<p>You can see all live labs in which you have an allocated virtual machine by going to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Azure Labs Virtual Machines</a> page, which will require you to be logged in to Azure using your Imperial College Account. For each lab you are registered with you will see a tile allowing you to manage the virtual machine associated with that lab.</p>
-<p>Before connecting to a virtual machine or resetting its password, you need to start the virtual machine using the switch at the lower left corner of the virtual machine pane.</p>
+<p>Before connecting to a virtual machine you need to start the virtual machine using the switch at the lower left corner of the virtual machine pane.</p>
 <p><img alt="" src="../_images/StartSwitch.png" /></p>
 <p>The virtual machine tile should now show that the virtual machine is starting.</p>
 <p><img alt="" src="../_images/Starting.png" /></p>
 <p>Once the start up process is complete, the tile should show you that the virtual machine is running.</p>
 <p><img alt="" src="../_images/Running.png" /></p>
-<div class="section" id="setting-a-password">
-<h3>Setting a password<a class="headerlink" href="#setting-a-password" title="Permalink to this headline">¶</a></h3>
-<p>Before your first connection to an Azure Labs virtual machine you will be required to set a password. To do this, go to the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines landing page</a> and click on the connect button:</p>
-<p><img alt="" src="../_images/ConnectButton.png" /></p>
-<p>Enter a new password when prompted, and then wait whilst the password is reset.</p>
-<p><img alt="" src="../_images/ResetPassword.png" /></p>
-<p>While the password is being reset you will not be able to click on the connect button and you should see a notification that the password is being reset. Once the password reset process is complete the connect button will be activated again, and the new password should be available to use.</p>
-</div>
 <div class="section" id="connecting-using-remote-desktop-protocol">
 <h3>Connecting using Remote Desktop Protocol<a class="headerlink" href="#connecting-using-remote-desktop-protocol" title="Permalink to this headline">¶</a></h3>
 <p>Clicking on the connect button on the <a class="reference external" href="https://labs.azure.com/virtualmachines/">Virtual Machines</a> landing page:</p>
