@@ -40,7 +40,7 @@ Before your first connection to an Azure Labs virtual machine you will be requir
 
 ![](ActionsButton.png)
 
-Enter a new password when prompted, and then wait whilst the password is reset. 
+then select 'reset password' from the actions menu. Enter a new password when prompted, and then wait whilst the password is reset. 
 
 ![](ResetPassword.png)
 
