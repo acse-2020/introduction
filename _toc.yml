@@ -12,6 +12,8 @@
   file: software/intro.md
 - title: Microsoft Teams
   file: teams/intro.md
+- title: Azure Labs
+  file: labs/intro.md
   
 - header: Course Primer
 - title: Command Line Interfaces
