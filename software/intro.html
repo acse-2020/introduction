@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <title>Software Installation &#8212; ACSE 2020 Introductory Material</title>
     
-  <link rel="stylesheet" href="../_static/css/index.d431a4ee1c1efae0e38bdfebc22debff.css">
+  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
     
   <link rel="stylesheet"
@@ -24,7 +24,7 @@
     href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.bfb7730f9caf2ec0b46a44615585038c.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.30270b6e4c972e43c488.js">
+  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
 
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -243,7 +243,8 @@
 
         <!-- Full screen (wrap in <a> to have style consistency -->
         <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
                     class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
@@ -340,7 +341,7 @@ or <a class="reference external" href="https://www.mozilla.org/en-GB/firefox/new
 <h2>Windows Subsystem for Linux (for Windows users)<a class="headerlink" href="#windows-subsystem-for-linux-for-windows-users" title="Permalink to this headline">¶</a></h2>
 <p>The <a class="reference external" href="https://docs.microsoft.com/en-us/windows/wsl/about">Windows Subsystem for Linux</a> extends Microsoft Windows by providing an embedded Linux kernel, and simplifies installation of other software such as Docker, as well as providing access to a linux shell. Use of WSL version 2 is highly encouraged for compatibility with Visual Studio Code. Please refer to the <a class="reference external" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Microsoft Documentation for enabling WSL2</a>, a summary of which is:</p>
 <ul class="simple">
-<li><p>Click <strong>Start</strong>, type <strong>PowerShell</strong>, right-click <strong>Windows PowerShell</strong>, and then click <strong>Run as administrator</strong></p></li>
+<li><p>Click <strong>Start</strong>, type <strong>PowerShell</strong>, right-click <strong>Windows PowerShell</strong>, and then click <strong>Run as administrator</strong>. Note that you may have more than one option for running PowerShell, and should select <strong>Windows PowerShell</strong> without ‘ISE’, ‘ISE (x86)’ or ‘(x86)’ suffixes.</p></li>
 <li><p>Enter the following commands:</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dism</span><span class="o">.</span><span class="n">exe</span> <span class="o">/</span><span class="n">online</span> <span class="o">/</span><span class="n">enable</span><span class="o">-</span><span class="n">feature</span> <span class="o">/</span><span class="n">featurename</span><span class="p">:</span><span class="n">Microsoft</span><span class="o">-</span><span class="n">Windows</span><span class="o">-</span><span class="n">Subsystem</span><span class="o">-</span><span class="n">Linux</span> <span class="o">/</span><span class="nb">all</span> <span class="o">/</span><span class="n">norestart</span>
@@ -439,7 +440,7 @@ Mac OS and Linux machines will typically have <code class="docutils literal notr
     </div>
 
     
-  <script src="../_static/js/index.30270b6e4c972e43c488.js"></script>
+  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
 
 
     

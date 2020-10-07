@@ -33,7 +33,7 @@ or [Firefox](https://www.mozilla.org/en-GB/firefox/new/) to have the most consis
 
 The [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) extends Microsoft Windows by providing an embedded Linux kernel, and simplifies installation of other software such as Docker, as well as providing access to a linux shell. Use of WSL version 2 is highly encouraged for compatibility with Visual Studio Code. Please refer to the [Microsoft Documentation for enabling WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10), a summary of which is:
 
-* Click **Start**, type **PowerShell**, right-click **Windows PowerShell**, and then click **Run as administrator**
+* Click **Start**, type **PowerShell**, right-click **Windows PowerShell**, and then click **Run as administrator**. Note that you may have more than one option for running PowerShell, and should select **Windows PowerShell** without 'ISE', 'ISE (x86)' or '(x86)' suffixes.
 * Enter the following commands:
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
