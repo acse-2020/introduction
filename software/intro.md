@@ -24,6 +24,13 @@ conda install jupyterhub pamela ipykernel notebook ipywidgets nbformat nbconvert
 pip install okpy livelossplot mpltools
 ```
 
+Some users have reported issues with installing graphviz from the above command set on OS X, with graphviz installs conflicting with a pre-installed sphinx package. If you see errors from installing graphviz, try:
+
+```
+conda uninstall sphinx
+conda install graphviz
+```
+
 ## Chrome or Firefox
 
 While most software and examples will work in any modern browser, including Edge or Safari, we recommend [Chrome](https://www.google.com/chrome/)
