@@ -331,6 +331,11 @@ Be careful to select the 64-Bit Python 3.8 version for your OS.</p>
 <span class="n">pip</span> <span class="n">install</span> <span class="n">okpy</span> <span class="n">livelossplot</span> <span class="n">mpltools</span>
 </pre></div>
 </div>
+<p>Some users have reported issues with installing graphviz from the above command set on OS X, with graphviz installs conflicting with a pre-installed sphinx package. If you see errors from installing graphviz, try:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">uninstall</span> <span class="n">sphinx</span>
+<span class="n">conda</span> <span class="n">install</span> <span class="n">graphviz</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="chrome-or-firefox">
 <h2>Chrome or Firefox<a class="headerlink" href="#chrome-or-firefox" title="Permalink to this headline">¶</a></h2>
