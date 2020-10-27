@@ -88,7 +88,7 @@ This lightweight, open source code editor from Microsoft is available [here](htt
 
 Before install Visual Studio Code on Windows, it is highly recommended to have set up WSL2, Ubuntu, and Docker Desktop. If you have completed these steps, Visual Studio Code will automatically prompt you to use WSL2 as a back-end for development during the install process. You should also be prompted to install the WSL2 backend extension after Visual Studio Code runs for the first time. If you already have Visual Studio Code installed, you should [refer to the WSL2 extension documentation here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
-Once Visual Studio Code is installed you should [follow these instuctions for adding extensions](https://code.visualstudio.com/docs/editor/extension-gallery) tp ensure that the following extensions are added:
+Once Visual Studio Code is installed you should [follow these instuctions for adding extensions](https://code.visualstudio.com/docs/editor/extension-gallery) to ensure that the following extensions are added:
 
 - ms-python.python
 - ms-vscode.cpptools
