@@ -66,7 +66,7 @@ Clicking on the connect button on the [Virtual Machines](https://labs.azure.com/
 
 ![](ConnectButton.png)
 
-will provide you with a Remote Desktop Protocol (RDP) configuration file. Most modern operating systems will be preconfigured with a client to open this configuration file, but if you do not have one, the [Microsoft Remote Desktop client](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients} is available for Windows and Mac OS X, and [Remmina](https://remmina.org/how-to-install-remmina/) is available pre-packaged for most Linux distributions.
+will provide you with a Remote Desktop Protocol (RDP) configuration file. Most modern operating systems will be preconfigured with a client to open this configuration file, but if you do not have one, the [Microsoft Remote Desktop client](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) is available for Windows and Mac OS X, and [Remmina](https://remmina.org/how-to-install-remmina/) is available pre-packaged for most Linux distributions.
 
 If the configuration file does not automatically supply a username, the default username for all course Labs machiens is 'acse'.  Use the password you set in the previous step.
 
